@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 120px 80px repeat(8, minmax(125px, 1fr));
+  grid-template-rows: 125px repeat(2, minmax(320px, 1fr));
+  grid-row-gap: 25px;
+  @media (max-width: 1024px) {
+    grid-template-columns: 80px 40px repeat(8, minmax(90px, 112px));
+  }
+}
+.header {
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.DailyActivity {
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.AverageSession {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.Performance {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.KeyData {
+  grid-column-start: 9;
+  grid-column-end: 10;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.ScorePiChart {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}

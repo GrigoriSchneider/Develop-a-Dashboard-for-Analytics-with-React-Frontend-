@@ -1,0 +1,13 @@
+.ScorePiChart {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  background: #fbfbfb;
+  width: 260px;
+  height: 260px;
+  border-radius: 10px;
+  background-color: #fbfbfb;
+
+  @media (max-width: 1024px) {
+    width: 210px;
+  }
+}
