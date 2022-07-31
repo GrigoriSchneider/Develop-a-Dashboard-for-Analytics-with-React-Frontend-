@@ -20,8 +20,8 @@ I recommend that you create a folder on your computer that will contain the back
 
 ```
 - sportsee
-    - back
-    - front
+    - [backend](https://github.com/GrigoriSchneider/Develop-a-Dashboard-for-Analytics-with-React-Backend)
+    - [frontende](https://github.com/GrigoriSchneider/Develop-a-Dashboard-for-Analytics-with-React-Frontend-)
 ```
 
 > Note: it says that the API requires a certain version of NodeJS, be aware that you can use a different version for the user interface without causing a problem of compatibility with the API.
